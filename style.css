@@ -1,0 +1,44 @@
+.logo h1 {
+  color: green;
+  font-size: 10rem;
+  margin-top: 2rem;
+  margin-left: 2.5rem;
+}
+
+div.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+div.content a {
+  display: flex;
+  width: 25%;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: white;
+}
+div.content a.active {
+  background-color: rgb(10, 152, 10);
+}
+
+div.content a.list {
+  background-color: rgb(14, 145, 134);
+}
+div.content a.viewport {
+  background-color: rgb(26, 41, 68);
+}
+div.content a.foot {
+  background-color: rgb(21, 100, 205);
+}
+div.right {
+  display: flex;
+  flex-direction: row;
+}
+div.right img {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  height: 500px;
+}
